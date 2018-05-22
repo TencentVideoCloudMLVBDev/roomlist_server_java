@@ -128,7 +128,7 @@ public class Config {
 因为需要上传文件到云服务器，建议使用 FileZilla 或者 FlashFXP 等可视化界面工具。
 ![](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/raw/master/image/upload_war.png)
 
-#### 6）将打包好的 webrtc.war 包上传 tomcat 的 webapps 目录下
+#### 6）将打包好的 roomlist.war 包上传 tomcat 的 webapps 目录下
 ![](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/raw/master/image/upload_war_2.png)
 
 #### 7) 通过 tomcat/bin 目录下的 startup.sh 脚本重新启动 tomcat。 
@@ -187,7 +187,7 @@ nginx -s reload
 ```
 使用 Postman 通过 POST 方式访问接口，如果在返回的 json 数据带有**请求成功**字样，说明部署成功。
 以获取登录信息为例，请求地址是 https://您自己的域名/roomlist/weapp/webrtc_room/get_login_info
-![](https://github.com/TencentVideoCloudMLVBDev/webrtc_server_java/raw/master/image/postman.png)
+![](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/raw/master/image/postman.png)
 
 ## 4 小程序和web端部署
 ### 4.1 小程序部署
@@ -212,5 +212,5 @@ https://您自己的域名/roomlist/weapp/webrtc_room
 ```
 
 ## 5 开发者资源
-* [项目结构](https://github.com/TencentVideoCloudMLVBDev/webrtc_server_java/blob/master/doc/codeStructure.md) - 后台源码结构
-* [协议文档](https://github.com/TencentVideoCloudMLVBDev/webrtc_server_java/blob/master/doc/protocol.md) - 后台协议文档
+* [项目结构](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/blob/master/doc/codeStructure.md) - 后台源码结构
+* [协议文档](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/blob/master/doc/protocol.md) - 后台协议文档
