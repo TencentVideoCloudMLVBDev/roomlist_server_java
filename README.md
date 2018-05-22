@@ -204,13 +204,6 @@ https://您自己的域名/roomlist/weapp/webrtc_room
 https://您自己的域名/roomlist/weapp/webrtc_room
 ```
 
-### 4.3 **web exe** web端部署
-
-下载 [web端](https://github.com/TencentVideoCloudMLVBDev/webrtc_pc) 源码，将component/WebRTCRoom.js文件中的`serverDomain`修改成：
-```
-https://您自己的域名/roomlist/weapp/webrtc_room
-```
-
 ## 5 开发者资源
 * [项目结构](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/blob/master/doc/codeStructure.md) - 后台源码结构
 * [协议文档](https://github.com/TencentVideoCloudMLVBDev/roomlist_server_java/blob/master/doc/protocol.md) - 后台协议文档
